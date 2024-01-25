@@ -7,8 +7,6 @@ for /F "tokens=*" %%1 in (D:\server_list.txt) do (
     xcopy /y "C:\Users\raja.tumma\Downloads\windows10.0-kb5034129-x64_15b9faad91f6b35ead3fbfb0fdc00f86244adc7f*" "\\%%1\C$\"
 	
 	
-	echo Batch script copying  completed.
-	
 )
 echo installing the MSU files 	
 
